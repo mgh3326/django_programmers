@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'elections'
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,9 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
+DATABASE_OPTIONS = {'charset': 'utf8'} #추가
+TIME_ZONE = 'Asia/Seoul' #추가
+LANGUAGE_CODE = 'ko-kr' #추가
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
