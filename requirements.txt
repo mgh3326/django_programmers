@@ -5,7 +5,7 @@ bs4==0.0.1
 certifi==2018.1.18
 chardet==3.0.4
 colorama==0.3.9
-Django==2.0.2
+django>=2.0.11
 gistory==0.42
 idna==2.6
 isort==4.2.15
@@ -19,9 +19,9 @@ pycurl==7.43.0.1
 pylint==1.8.2
 python-dateutil==2.6.1
 pytz==2017.3
-requests==2.18.4
+requests>=2.20.0
 requests-oauthlib==0.8.0
 six==1.11.0
 tweepy==3.5.0
-urllib3==1.22
+urllib3>=1.24.2
 wrapt==1.10.11
